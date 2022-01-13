@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/shortcur.PNG">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <a href="./index.html"><img src="./img/fondo.PNG" alt="Logo de la empresa" class="tamañoLogo"></a>
+
+        <ul class="formatoMenu">
+            <li class="formatoPuntos">
+                <a href="./index.html">Inicio</a>
+            </li>
+            <li class="formatoPuntos">
+                <a href="./Products.html">Productos</a>
+            </li>
+            <li class="formatoPuntos">
+                <a href="./Company.html">Company</a>
+            </li>
+            <li class="formatoPuntos">
+                <a href="./Contactanos.html">Contac Us</a>
+            </li>
+            <li class="formatoPuntos">
+                <a href="./market.html">Market</a>
+            </li>
+        </ul>
+        <input type="search" placeholder="BUSCAR EN EL SITIO" class="acomodarBusqueda" />
+
+    </header>
+    <main>
+
+        <h1 class="titulo2">En esta sección podes dejarnos tu consulta o solicitar un presupesto
+            si necesitas medidas especiales para tu mesa</h1>
+        <form action="#" method="get">
+            <div class="hijoDatos">
+                <div class="hijoFormulario">
+
+                    <input type="text" placeholder="NOMBRE" required name="nombre" class="ingresoDatos">
+
+                    <input type="text" placeholder="APELLIDO" required name="apellido" class="ingresoDatos">
+
+                    <input type="text" placeholder="Correo electónico" required name="correo" class="ingresoDatos">
+
+                    <input type="tel" placeholder="Número de teléfono" require name="Telefono" class="ingresoDatos">
+                </div>
+                <p>Dejanos tu consulta:</p>
+
+                <textarea name="datosdecontacto" id="" class="cuadroTexto" ></textarea>
+            </div>
+
+            <h2>La siguiente infomración es opcional:</h2>
+
+            <div class="hijoInfo">
+                <h3>Sexo</h3>
+                <p>Mujer</p>
+                <input type="radio" value="Mujer" name="sexo">
+                <p>Hombre</p>
+                <input type="radio" value="Hombre" name="sexo">
+                <p>No binario</p>
+                <input type="radio" value="No binario" name="sexo">
+                <p>No quiero especificar</p>
+                <input type="radio" value="No quiero especificar" name="sexo">
+                
+                <input type="number" placeholder="Edad" name="Edad">
+                
+                <select name="Nacionalidad">
+                    <option value="1">Argentina</option>
+                    <option value="2">Chile</option>
+                    <option value="3">Uruguay</option>
+                    <option value="4">Brasil</option>
+                </select>
+                
+                <p>Acepta términos y condiciones?</p>
+                <input type="checkbox" name="Acepta" value="SI">
+                
+                <input type="submit" for="enviar-nombre" value="Enivar consulta">
+
+            </div>
+        </form>
+
+    </main>
+    <footer>
+        <a href="https://web.whatsapp.com/"><img src="./img/whatsapp_icon_138013.png" alt="whatsapp" class="tamaño"></a>
+        <a href="https://www.facebook.com/"><img src="./img/facebook.png" alt="facebook" class="tamaño2"></a>
+        <a href="https://twitter.com/"><img src="./img/twitter.png" alt="twitter" class="tamaño"></a>
+        <a href="https://ar.pinterest.com/"><img src="./img/pinteres.png" alt="pinterest" class="tamaño2"></a>
+    </footer>
+
+</body>
+
+</html>

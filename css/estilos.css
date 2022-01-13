@@ -1,0 +1,568 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(228, 136, 76);
+    box-sizing: border-box;
+}
+
+/* Estilos para las partes principales */
+header {
+
+    background-color: whites;
+    height: 25vh;
+    display: flex;
+
+}
+
+main {
+    background-color: whitesmoke;
+    height: 165vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(250, 211, 250);
+    height: 10vh;
+    justify-content: center;
+}
+
+/* Estilo para los elementos del header */
+.tamañoLogo {
+    height: 25vh;
+    width: 25vw;
+    display: flex;
+}
+
+.formatoMenu {
+    display: flex;
+    list-style: none;
+    height: 25vh;
+    width: 50vw;
+    font-size: 20px;
+    font-style: italic;
+    justify-content: center;
+    align-items: end;
+}
+
+.formatoPuntos {
+    padding: 10px;
+}
+
+.acomodarBusqueda {
+    display: flex;
+    height: 5vh;
+    width: 15vw;
+    margin-left: 20vh;
+    margin-top: 20vh;
+}
+
+/* Estilos para los elementos del main */
+.titulo {
+    width: 100vw;
+    height: 5vh;
+    font-weight: bold;
+    font-family: "Lucida Bright", Georgia, serif;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 26.4px;
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+}
+
+.textoPrincipal {
+    display: flex;
+    text-align: center;
+    padding: 40px;
+    font-size: 20px;
+    width: 60vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.textoPrincipal2 {
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    width: 100vw;
+    margin-top: 5vh;
+
+}
+
+/* Esto es para las fotos y recuadros */
+.hijoFotos {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 8vh;
+
+}
+
+.hijoMapas {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 8vh;
+
+}
+
+.mesa1 {
+    display: flex;
+    height: 50vh;
+    width: 20vw;
+    border: solid;
+    border-color: thistle;
+}
+
+.mesa2 {
+    display: flex;
+    height: 50vh;
+    width: 40vw;
+    border: solid;
+    border-color: thistle;
+}
+
+.mesa3 {
+    display: flex;
+    height: 50vh;
+    width: 30vw;
+    border: solid;
+    border-color: thistle;
+}
+
+.mapa {
+    height: 50vh;
+    width: 40vw;
+}
+
+.video {
+    height: 50vh;
+    width: 40vw;
+}
+
+.tamaño {
+    height: 7vh;
+    width: 4vw;
+}
+
+.tamaño2 {
+    height: 6vh;
+    width: 3vw;
+}
+
+.achicar {
+    height: 35vh;
+    width: 18vw;
+    display: flex;
+    border: solid;
+    border-color: thistle;
+}
+
+.achicar2 {
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    border: solid;
+    border-color: thistle;
+    margin-top: 3vh;
+}
+
+.achicar3 {
+    height: 35vh;
+    width: 25vw;
+    display: flex;
+    border: solid;
+    border-color: thistle;
+}
+
+h2 {
+    margin-bottom: 3vh;
+    margin-left: 1vw;
+    font-style: italic;
+}
+
+.hijoFamilia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hijoPersonas {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+    margin-left: 5vw;
+
+}
+
+.textoDescribe {
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    width: 20vw;
+    margin-right: 5vw;
+}
+
+.hijoFormulario {
+    display: flex;
+    flex-direction: row;
+    width: 55vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo2 {
+    width: 80vw;
+    font-weight: bold;
+    font-family: "Lucida Bright", Georgia, serif;
+    font-style: normal;
+    font-variant: normal;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+    margin-left: 10vw;
+}
+
+.hijoInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 65vh;
+    margin-left: 1vw;
+    justify-content: space-around;
+}
+
+.hijoDatos {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 65vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.padreCompras {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    height: 40vh;
+    justify-content: space-around;
+
+}
+
+.achicarCompras {
+    height: 28vh;
+    width: 20vw;
+    display: flex;
+    border: solid;
+    border-color: thistle;
+}
+
+.hacerLinea {
+    width: 20vw;
+}
+
+.botonCompras {
+    width: 10vw;
+    margin-left: 45vw;
+    margin-top: 6vh;
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+.cuadroTexto {
+    width: 55vw;
+    height: 55vh;
+}
+
+.ingresoDatos {
+    width: 13vw;
+    height: 4vh;
+}
+
+/* Acá arranco con las medias queries para un ancho de 1024 máximo */
+
+@media (max-width: 1024px) {
+
+    .mapa {
+        height: 30vh;
+        width: 30vw;
+    }
+
+    .video {
+        height: 30vh;
+        width: 30vw;
+    }
+
+    .achicar2 {
+        height: 35vh;
+        width: 35vw;
+        display: flex;
+        border: solid;
+        border-color: thistle;
+        margin-top: 3vh;
+    }
+
+    .achicar3 {
+        height: 25vh;
+        width: 20vw;
+        display: flex;
+        border: solid;
+        border-color: thistle;
+    }
+
+    .textoDescribe {
+        display: flex;
+        text-align: center;
+        font-size: 16px;
+        width: 20vw;
+        margin-right: 5vw;
+    }
+
+    .hijoDatos {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 65vh;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .cuadroTexto {
+        width: 55vw;
+        height: 45vh;
+    }
+
+    .titulo2 {
+        width: 80vw;
+        font-weight: bold;
+        font-family: "Lucida Bright", Georgia, serif;
+        font-style: normal;
+        font-variant: normal;
+        text-align: center;
+        font-size: 25px;
+        padding: 30px;
+        margin-left: 10vw;
+    }
+
+}
+
+/* Acá arranco con las medias queries para un ancho de 915 máximo */
+@media (max-width: 915px) {
+
+    .titulo {
+        font-size: 35px;
+    }
+
+    .formatoMenu {
+        font-size: 18px;
+        width: 55vw;
+    }
+
+    .tamañoLogo {
+        height: 25vh;
+        width: 25vw;
+    }
+
+    header {
+        align-items: end;
+        width: 100vw;
+    }
+
+    .acomodarBusqueda {
+        width: 10vw;
+        margin-left: 10vw;
+
+    }
+
+    .mesa1 {
+        height: 40vh;
+    }
+
+    .mesa2 {
+        height: 40vh;
+    }
+
+    .mesa3 {
+        height: 40vh;
+    }
+
+    .textoPrincipal2 {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .textoDescribe {
+        font-size: 14px;
+    }
+
+    .titulo2 {
+        font-size: 19px;
+    }
+
+    .hacerLinea {
+        font-size: 12px;
+    }
+
+    .botonCompras {
+        font-size: 12px;
+    }
+}
+
+/* Acá arranco con las medias queries para un ancho de 751 máximo */
+@media (max-width: 751px) {
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tamañoLogo {
+        height: 20vh;
+        width: 75vw;
+    }
+
+    .formatoMenu {
+        width: 100vw;
+        font-size: 12px;
+        height: 5vh;
+    }
+
+    .acomodarBusqueda {
+        display: none;
+    }
+
+    .titulo {
+        font-size: 25px;
+    }
+
+    .textoPrincipal {
+        font-size: 16px;
+        padding: 0px;
+        width: 90vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+
+    .mesa1 {
+        height: 20vh;
+    }
+
+    .mesa2 {
+        height: 20vh;
+    }
+
+    .mesa3 {
+        height: 20vh;
+    }
+
+    .hijoMapas {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 8vh;
+        width: 100vw;
+        height: 60vh;
+
+    }
+
+    .mapa {
+        width: 90vw;
+        height: 26vh;
+    }
+
+    .video {
+        width: 90vw;
+        height: 26vh;
+    }
+
+    .tamaño {
+        height: 8vh;
+        width: 8vw;
+    }
+
+    .tamaño2 {
+        height: 7vh;
+        width: 8vw;
+    }
+
+    .achicar {
+        height: 25vh;
+        width: 18vw;
+    }
+
+    .hijoPersonas {
+        display: none;
+    }
+
+    .achicar2 {
+
+        height: 40vh;
+        width: 80vw;
+
+    }
+
+    .textoPrincipal2 {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .titulo2 {
+        width: 90vw;
+        font-size: 14px;
+        padding: 20px;
+        margin-left: 5vw;
+    }
+    .hijoFormulario {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        height: 20vh;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 2vh;
+    }
+    .ingresoDatos {
+        width: 40vw;
+        height: 4vh;
+    }
+    h2{
+        font-size: 23px;
+    }
+    .cuadroTexto {
+        width: 55vw;
+        height: 45vh;
+        margin-bottom: 4vh;
+    }
+    .achicarCompras {
+        height: 15vh;
+        width: 20vw;
+        display: flex;
+        border: solid;
+        border-color: thistle;
+    }
+    .hacerLinea {
+        width: 15vw;
+        font-size: 10px;
+    }
+    .botonCompras {
+        width: 30vw;
+        margin-left: 35vw;
+        margin-top: 6vh;
+        font-weight: bold;
+        font-size: 3vh;
+    }
+
+}
