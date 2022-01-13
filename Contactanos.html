@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="shortcut icon" href="./img/shortcur.PNG">
     <link rel="stylesheet" href="./css/estilos.css">
     <title>Document</title>
@@ -42,17 +43,17 @@
             <div class="hijoDatos">
                 <div class="hijoFormulario">
 
-                    <input type="text" placeholder="NOMBRE" required name="nombre" class="ingresoDatos">
+                    <input type="text" placeholder="NOMBRE" required name="nombre" class="ingresoDatos wow animate__animated animate__fadeInDown">
 
-                    <input type="text" placeholder="APELLIDO" required name="apellido" class="ingresoDatos">
+                    <input type="text" placeholder="APELLIDO" required name="apellido" class="ingresoDatos wow animate__animated animate__fadeInDown">
 
-                    <input type="text" placeholder="Correo electónico" required name="correo" class="ingresoDatos">
+                    <input type="text" placeholder="Correo electónico" required name="correo" class="ingresoDatos wow animate__animated animate__fadeInDown">
 
-                    <input type="tel" placeholder="Número de teléfono" require name="Telefono" class="ingresoDatos">
+                    <input type="tel" placeholder="Número de teléfono" require name="Telefono" class="ingresoDatos wow animate__animated animate__fadeInDown">
                 </div>
                 <p>Dejanos tu consulta:</p>
 
-                <textarea name="datosdecontacto" id="" class="cuadroTexto" ></textarea>
+                <textarea name="datosdecontacto" id="" class="cuadroTexto wow animate__animated animate__fadeInDown" ></textarea>
             </div>
 
             <h2>La siguiente infomración es opcional:</h2>
@@ -92,6 +93,10 @@
         <a href="https://twitter.com/"><img src="./img/twitter.png" alt="twitter" class="tamaño"></a>
         <a href="https://ar.pinterest.com/"><img src="./img/pinteres.png" alt="pinterest" class="tamaño2"></a>
     </footer>
+    <script src="js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 
 </body>
 

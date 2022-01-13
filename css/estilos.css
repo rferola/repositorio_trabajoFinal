@@ -8,7 +8,7 @@
 /* Estilos para las partes principales */
 header {
 
-    background-color: whites;
+    background-image: linear-gradient(to right, white , rgb(250, 211, 250));
     height: 25vh;
     display: flex;
 
@@ -23,7 +23,7 @@ main {
 
 footer {
     display: flex;
-    background-color: rgb(250, 211, 250);
+    background-image: linear-gradient(to right, white , rgb(250, 211, 250));
     height: 10vh;
     justify-content: center;
 }
@@ -70,8 +70,18 @@ footer {
     text-align: center;
     font-size: 50px;
     padding: 30px;
+    animation-duration: 3s;
+    animation-name: aparecer;
 }
-
+@keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+ 
 .textoPrincipal {
     display: flex;
     text-align: center;
@@ -80,7 +90,21 @@ footer {
     width: 60vw;
     margin-left: 20vw;
     margin-right: 20vw;
+    animation-duration: 4s;
+    animation-name: aparecer2;
 }
+@keyframes aparecer2 {
+    0% {
+      opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+ 
 
 .textoPrincipal2 {
     display: flex;
@@ -89,6 +113,8 @@ footer {
     font-size: 18px;
     width: 100vw;
     margin-top: 5vh;
+    animation-duration: 4s;
+    animation-name: aparecer2;
 
 }
 
@@ -117,6 +143,12 @@ footer {
     width: 20vw;
     border: solid;
     border-color: thistle;
+    transform: rotate(5deg);
+    transition: height 1s, width 1s;
+}
+.mesa1:hover{
+    height: 45vh;
+    width: 18vw;
 }
 
 .mesa2 {
@@ -125,7 +157,13 @@ footer {
     width: 40vw;
     border: solid;
     border-color: thistle;
+    transition: height 1s, width 1s;
 }
+.mesa2:hover{
+    height: 45vh;
+    width: 35vw;
+}
+
 
 .mesa3 {
     display: flex;
@@ -133,8 +171,13 @@ footer {
     width: 30vw;
     border: solid;
     border-color: thistle;
+    transform: rotate(-5deg);
+    transition: height 1s, width 1s;
 }
-
+.mesa3:hover{
+    height: 45vh;
+    width: 25vw;
+}
 .mapa {
     height: 50vh;
     width: 40vw;
@@ -161,6 +204,11 @@ footer {
     display: flex;
     border: solid;
     border-color: thistle;
+    transition: height 1s, width 1s;
+}
+.achicar:hover{
+    height: 50vh;
+    width: 25vw;
 }
 
 .achicar2 {
@@ -267,6 +315,8 @@ h2 {
 
 .hacerLinea {
     width: 20vw;
+    animation-duration: 2s;
+    animation-name: aparecer2;
 }
 
 .botonCompras {
@@ -285,8 +335,12 @@ h2 {
 .ingresoDatos {
     width: 13vw;
     height: 4vh;
+    transition: heigth 1s, width 1s;
 }
-
+.ingresoDatos:focus{
+    width: 15vw;
+    height: 5vh;
+}
 /* Acá arranco con las medias queries para un ancho de 1024 máximo */
 
 @media (max-width: 1024px) {
